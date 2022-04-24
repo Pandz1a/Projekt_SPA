@@ -1,0 +1,20 @@
+main{
+    article {
+        // background: repeating-linear-gradient(45deg, $bg-color-1, $bg-color-1 10px, $bg-color-2 10px, $bg-color-2 20px);
+        box-shadow: black 0 2px 8px 2px;
+        margin    : 2em 1em;
+        padding   : 1rem;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color     : #CEA5A5;
+            margin    : 0;
+            padding   : 1rem 0.5rem;
+        }
+        padding-bottom: 50px;
+    }
+}

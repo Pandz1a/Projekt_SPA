@@ -1,0 +1,29 @@
+.mapa{
+    padding: 50px 30px;
+    margin: auto;
+    box-shadow: 8px 8px 24px 0px #340f16;
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    &::before { 
+        content: "";
+        display: inline-block;
+        position: absolute;
+        align-items: center;
+        top: 15px;
+        width: 90%;
+        height: 860px;
+        background: url("../assets/img/main/tloopisow.jpg") no-repeat 0 0;
+        background-size: contain;
+        opacity: 0.15;
+    }
+    border-radius: 10px;
+    color: #340f16;
+    position: relative;
+    margin: 20px;
+         iframe{
+             margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+}

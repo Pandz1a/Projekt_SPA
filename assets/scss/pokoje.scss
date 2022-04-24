@@ -1,0 +1,93 @@
+img.roomimg, img.treatmentimg {
+    width:400px;
+    height:400px;
+    margin: 20px;
+}
+
+main { margin-bottom: 50px;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 2rem 0;
+        text-align: center;
+    
+    }
+
+    section{
+        h2{
+            padding: 50px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 4rem;
+        }
+        .tlonaglowkow{
+            background-image: url("../assets/img/main/tlo.jpg");
+            height: 200px;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            margin-bottom: -150px;
+            margin-top: -25px;
+        }
+    }
+
+    p {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        padding   : 0;
+        margin: 200px;
+        text-align: center;
+
+        li {
+            padding: 50px 30px;
+        box-shadow: 8px 8px 24px 0px #340f16;
+        position: relative;
+        background: #fff;
+        border-radius: 10px;
+        &::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            top: 15px;
+            width: 460px;
+            height: 260px;
+            background: url("../assets/img/main/tloopisow.jpg") no-repeat 0 0;
+            opacity: 0.15;
+        }
+            footer {
+                display        : flex;
+                align-items    : center;
+                justify-content: flex-end;
+
+                &>*+* {
+                    margin-left: 1rem;
+                }
+            }
+        }
+
+        li+li {
+            margin-top: 2rem;
+        }
+    }
+
+}
+
+.kalendarz{
+    display: flex;
+    width: 100%;
+    p{
+        margin: 0;
+        padding-right: 15px;
+    }
+    p:not(:first-child){
+        padding-left: 15px;
+    }
+}

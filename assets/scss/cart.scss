@@ -1,0 +1,46 @@
+section{
+    h2.tlozakupy {
+        text-align: center;
+        background-image: url("../assets/img/main/tlo.jpg");
+            height: 200px;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            margin-top: -25px;
+        }
+        p.koszyk{
+            font-size: x-large;
+        }
+    // table.td.tr.usun{
+    //         border: 2px;
+    //         color: red;
+    //     }
+}
+.tabela{
+    text-align: center;
+    margin: 0 auto;
+    tr{
+        border: 2px dotted palevioletred;
+        background-color: #fff2cc;
+
+    }
+    tr:first-child{
+        td{
+            font-weight: bold;
+            font-size: larger;
+            background-color: 	#ffe6cc;
+        }
+    }
+    td{
+        padding: 10px;
+    }
+    td:first-child{
+        text-align: left;
+        padding-right: 100px;
+    }
+    td.usun .btn{
+        border: 2px solid palevioletred;
+        color: palevioletred;
+        background-color: #fff2cc;
+    }
+}

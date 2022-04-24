@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+html,
+body {
+    height : 100%;
+    margin : 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    background :#e2e2e2;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 60px;
+}
+
+nav {
+    background: linear-gradient(45deg, #7d7576 0%, #e2e2e2 100%);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    box-shadow: 8px 8px 24px 0px #340f16 ;
+    top:0;
+
+    button,
+    .btn {
+        background   : transparent;
+        border       : 0;
+        border-radius: 0;
+        box-shadow   : none !important;
+        font-size    : 1rem;
+        outline      : none;
+        padding      : 0.5rem 1rem;
+        font-weight: bold;
+
+        &:active,
+        &:focus,
+        &:hover {
+            background: transparent;
+        }
+    }
+
+    .btn.btn-active {
+        background-color: #f4b700;
+        text-decoration : underline;
+    }
+}
+
+.logowanie{
+    color: rgb(151, 131, 16);
+    text-align: right;
+}
+
+.footer{
+    text-align: center;
+    color: #545758;
+    background: linear-gradient(45deg, #7d7576 0%, #e2e2e2 100%);
+    padding: 20px;
+}
+
+
+/* tu RWD*/
+@import "assets/scss/home";
+@import "assets/scss/pokoje";
+@import "assets/scss/detale";
+@import "assets/scss/contakt";
+@import "assets/scss/cart";
