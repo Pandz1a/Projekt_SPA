@@ -9,7 +9,7 @@ export function Rooms() {
     section.innerHTML = `
         <h2 class="tlonaglowkow">Rooms</h2>
         <p>Loading...</p>
-        <ul></ul>
+        <ul class="rwd-container"></ul>
     `;
 
     // pobieramy pokoje z json-server
@@ -57,6 +57,8 @@ export function Rooms() {
                         let dataDo = li.querySelector("input[name=do]").value;
                         if(dataOd.length === 0 || dataDo.length ===0){
                             alert("Wybierz czas wizyty u nas");
+                        }else if(new Date(dataOd)<=new Date){
+                            alert("należy dokonywać rezerwacji z jednodniowym wyprzedzeniem :)");
                         }else if(new Date(dataOd) > new Date(dataDo)){
                             alert("data wyjazdu nie może być wcześniejsza niż przyjazdu!!!!!!!!!");
                         }else{

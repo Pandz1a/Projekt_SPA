@@ -9,7 +9,7 @@ export function Treatments() {
     section.innerHTML = `
         <h2 class="tlonaglowkow">Treatments</h2>
         <p>Loading...</p>
-        <ul></ul>
+        <ul class="rwd-container"></ul>
     `;
 
     // pobieramy masaże z json-server
